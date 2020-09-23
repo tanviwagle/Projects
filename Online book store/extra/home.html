@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <link rel="stylesheet" href="home.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+</head>
+<!--dropdown Jquery Script-->
+<script>
+  $(document).ready(function () {
+    $(".carousel").carousel(
+      {
+        indicators: true,
+		fullWidth:true
+      });
+    $(".dropdown-trigger").dropdown();
+  });
+
+</script>
+
+<body>
+  <!--NAVBAR-->
+  <div class="navbar-fixed indigo darken-4">
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo center ">Tech Hybrid</a>
+        <ul id="nav-mobile" class="center hide-on-med-and-down">
+          <li><a href="sass.html">Home</a></li>
+          <li><a href="badges.html">About us</a></li>
+          <li><a href="collapsible.html">New Arrivals</a></li>
+          <li><a href="collapsible.html">Best Sellers</a></li>
+        </ul>
+        <ul>
+          <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Categories<i
+                class="material-icons right">arrow_drop_down</i></a></li>
+          <ul id="dropdown1" class="dropdown-content">
+            <li><a href="#!">Arts</a></li>
+            <li><a href="#!">Business</a></li>
+            <li><a href="#!">Fiction</a></li>
+            <li><a href="#!">Law</a></li>
+            <li><a href="#!">Lifestyle</a></li>
+            <li><a href="#!">Music</a></li>
+            <li><a href="#!">Science</a></li>
+            <li><a href="#!">Science</a></li>
+            <li><a href="#!">Sports</a></li>
+            <li><a href="#!">Travel</a></li>
+          </ul>
+        </ul>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="Signup">Signup</a></li>
+          <li><a href="Cart"><i class="material-icons right">add_shopping_cart</i> Cart</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <!--carousel-->
+  <div class="carousel carousel-slider">
+    <a href="#one" class="carousel-item"><img src="C:\Users\Wagle\eclipse-workspace\Online book store\res\JEE-Textbooks-2020-PC.jpg"></a>
+    <a href="#one" class="carousel-item"><img src="C:\Users\Wagle\eclipse-workspace\Online book store\res\50off.jpg"></a>
+  </div>
+  
+  <!--search-->
+
+  <section id="search">
+    <div class="container">
+      <h4>Search Your Favorite Book</h4>
+      <form>
+        <input type="text" placeholder="Search Book">
+
+      </form>
+    </div>
+  </section>
+
+  <!--top offers-->
+
+  <section id="top_offer">
+    <h2 class="top_offer">Top offers</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col m3">
+          <div class="card medium">
+            <div class="card-image">
+              <img src="C:\Users\Wagle\eclipse-workspace\Online book store\res\ignited.jpg">
+            </div>
+            <h5 class="card-title">Ignited Minds</h5>
+
+            <p class="card-contents"> by A.P.J.Abdul Kalam</p>
+
+            <div class="card-action">
+              <a href="NewFile.jsp">View Details</a>
+              <a href="#">Buy</a>
+            </div>
+          </div>
+        </div>
+        <div class="col m3">
+          <div class="card medium">
+            <div class="card-image">
+              <img src="C:\Users\Wagle\eclipse-workspace\Online book store\res\girlroom.jpg">
+            </div>
+            <h5 class="card-title">Girl in Room 105</h5>
+
+            <p class="card-contents">by chetan bhagat</p>
+
+            <div class="card-action">
+              <a href="NewFile.jsp">View Details</a>
+              <a href="#">Buy</a>
+            </div>
+          </div>
+        </div>
+        <div class="col m3">
+          <div class="card medium">
+            <div class="card-image">
+              <img src="C:\Users\Wagle\eclipse-workspace\Online book store\res\shining.jpg">
+            </div>
+            <h5 class="card-title">The Shining</h5>
+
+            <p class="card-contents">by stephen king</p>
+
+            <div class="card-action">
+              <a href="NewFile.jsp">View Details</a>
+              <a href="#">Buy</a>
+            </div>
+          </div>
+        </div>
+        <div class="col m3">
+          <div class="card medium">
+            <div class="card-image">
+              <img src="C:\Users\Wagle\eclipse-workspace\Online book store\res\emma.jpg">
+            </div>
+            <h5 class="card-title">Akin</h5>
+
+            <p class="card-contents">by Emma Donoghue</p>
+
+            <div class="card-action">
+              <a href="#">View Details</a>
+              <a href="#">Buy</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!--new arrival-->
+  <section id="new_arrival">
+    <h2 class="new_arrival">New Arrivals</h2>
+    <div class="container">
+
+      <div class="row">
+        <div class="col m3">
+          <div class="card medium">
+            <div class="card-image">
+              <img src="C:\Users\Wagle\eclipse-workspace\Online book store\res\41tgcoWilAL._SY346_.jpg">
+            </div>
+            <h5 class="card-title">Perfect us</h5>
+            <p class="card-contents">by Durjoy</p>
+            <div class="card-action">
+              <a href="NewFile.jsp">View Details</a>
+              <a href="#">Buy </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col m3">
+          <div class="card medium">
+            <div class="card-image">
+              <img src="C:\Users\Wagle\eclipse-workspace\Online book store\res\revolutionary.jpg">
+            </div>
+            <h5 class="card-title">Revolution Twenty</h5>
+
+            <p class="card-contents">by chetan bhagat</p>
+
+            <div class="card-action">
+              <a href="NewFile.jsp">View Details</a>
+              <a href="#">Buy</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col m3">
+          <div class="card medium">
+            <div class="card-image">
+              <img src="C:\Users\Wagle\eclipse-workspace\Online book store\res\murty.jpg">
+            </div>
+            <h5 class="card-title">Thousand Stich</h5>
+
+            <p class="card-contents">by sudha murty</p>
+
+            <div class="card-action">
+              <a href="NewFile.jsp">View Details</a>
+              <a href="#">Buy</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col m3">
+          <div class="card medium">
+            <div class="card-image">
+              <img src="C:\Users\Wagle\eclipse-workspace\Online book store\res\murty.jpg">
+            </div>
+            <h5 class="card-title">Thousand Stich</h5>
+
+            <p class="card-contents">by sudha murty</p>
+
+            <div class="card-action">
+              <a href="NewFile.jsp">View Details</a>
+              <a href="#">Buy</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!--featured author-->
+
+  <section id="prom-authors">
+    <h2 class="featured_authors">Featured Authors</h2>
+    <div class="container">
+      <div class="row">
+        <div class="author1 col m3">
+          <img src="C:\Users\Wagle\eclipse-workspace\Online book store\res\chetan_bhagat-380.jpg" alt="Avatar" class="avatar">
+          <p class="author">Chetan Bhagat</p>
+
+        </div>
+
+        <div class="author1 col m3">
+          <img src="C:\Users\Wagle\eclipse-workspace\Online book store\res\chetan_bhagat-380.jpg" alt="Avatar" class="avatar">
+          <p class="author"> Chetan Bhagat</p>
+
+        </div>
+
+        <div class="author1 col m3">
+          <img src="C:\Users\Wagle\eclipse-workspace\Online book store\res\chetan_bhagat-380.jpg" alt="Avatar" class="avatar">
+          <p class="author">Chetan Bhagat</p>
+
+        </div>
+
+        <div class="author1 col m3">
+          <img src="C:\Users\Wagle\eclipse-workspace\Online book store\res\chetan_bhagat-380.jpg" alt="Avatar" class="avatar">
+          <p class="author"> Chetan Bhagat</p>
+
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+  <!--footer-->
+  <footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Tech Hybrid</h5>
+          <p class="grey-text text-lighten-4">India's Largest Selling book website.</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Contact us</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="#!">+91 9619268843</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">techhybrid@gmail.com</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        © 2019 Copyright
+        <a class="grey-text text-lighten-4 right" href="#!"></a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+
+</html>

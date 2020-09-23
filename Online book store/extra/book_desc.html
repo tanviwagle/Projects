@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="desc.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+</head>
+<!--dropdown Jquery Script-->
+<script>
+    $(document).ready(function () {
+        $(".carousel").carousel();
+
+        $(".dropdown-trigger").dropdown();
+    });
+
+</script>
+
+<body>
+    <!--NAVBAR-->
+    <div class="navbar-fixed indigo darken-4">
+        <nav>
+            <div class="nav-wrapper">
+                <a href="home.html" class="brand-logo center ">Tech Hybrid</a>
+                <ul id="nav-mobile" class="center hide-on-med-and-down">
+                    <li><a href="sass.html">Home</a></li>
+                    <li><a href="badges.html">About us</a></li>
+                    <li><a href="collapsible.html">New Arrivals</a></li>
+                    <li><a href="collapsible.html">Best Sellers</a></li>
+                </ul>
+                <ul>
+                    <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Categories<i
+                                class="material-icons right">arrow_drop_down</i></a></li>
+                    <ul id="dropdown1" class="dropdown-content">
+                        <li><a href="#!">Arts</a></li>
+                        <li><a href="#!">Business</a></li>
+                        <li><a href="#!">Fiction</a></li>
+                        <li><a href="#!">Law</a></li>
+                        <li><a href="#!">Lifestyle</a></li>
+                        <li><a href="#!">Music</a></li>
+                        <li><a href="#!">Science</a></li>
+                        <li><a href="#!">Science</a></li>
+                        <li><a href="#!">Sports</a></li>
+                        <li><a href="#!">Travel</a></li>
+                    </ul>
+                </ul>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="Signup">Signup</a></li>
+                    <li><a href="Cart"><i class="material-icons right">add_shopping_cart</i> Cart</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <section id="book_desc">
+        <div class="container">
+            <div class="row">
+                <div class="col m5">
+                    <div class="carousel">
+                        <a class="carousel-item" href="#one!"><img src="images/emma.jpg"></a>
+                        <a class="carousel-item" href="#two!"><img src="images/girlroom.jpg"></a>
+                        <a class="carousel-item" href="#three!"><img src="images/ignited.jpg"></a>
+                        <a class="carousel-item" href="#four!"><img src="images/murty.jpg"></a>
+                        <a class="carousel-item" href="#five!"><img src="images/shining.jpg"></a>
+                    </div>
+                </div>
+                <div class=" desc col m7">
+                    <h3>The Girl In Room 105</h3>
+                    <p>By: Yuval Noah Harari (Author) | Publisher: Vintage Publishing | Released: 30 Apr 2015</p>
+                    <p> <i class="material-icons">star</i>
+                        <i class="material-icons">star</i>
+                        <i class="material-icons">star</i>
+                        <i class="material-icons">star</i>
+                    </p>
+                    <p>Ships within 3-4 Business Days</p>
+                    <h5>Price: <strike>$40</strike></h5>
+                    <h5 class="new_price">Price: $25</h5>
+
+                    <a class="waves-effect waves-light btn">Buy Now</a>
+                    <a class="waves-effect waves-light btn">Add to Cart</a>
+                </div>
+            </div>
+            <hr>
+
+            <div class="row">
+                <div class="col m12">
+                    <h4>About the Book</h4>
+                    <p>100,000 years ago, at least six human species inhabited the earth. Today there is just one. Us.
+                        Homo sapiens. How did our species succeed in the battle for dominance? Why did our foraging
+                        ancestors come together to create cities and kingdoms? How did we come to believe in gods,
+                        nations and human rights; to trust money, books and laws; and to be enslaved by bureaucracy,
+                        timetables and consumerism? And what will our world be like in the millennia to come?
+
+                        Bold, wide-ranging and provocative, Sapiens challenges everything we thought we knew about being
+                        human: our thoughts, our actions, our power ... and our future.
+
+                        'Here is a simple reason why Sapiens has risen explosively to the ranks of an international
+                        bestseller. It tackles the biggest questions of history and of the modern world, and it is
+                        written in unforgettably vivid language. You will love it!' - Jared Diamond
+                        About the Author
+
+                        ‘I encourage all of us, whatever our beliefs, to question the basic narratives of our world, to
+                        connect past developments with present concerns, and not to be afraid of controversial issues.’
+                        Dr Yuval Noah Harari has a PhD in History from the University of Oxford and now lectures at the
+                        Hebrew University of Jerusalem, specialising in World History. His research focuses on broad
+                        questions, such as: What is the relation between history and biology? Is there justice in
+                        history? Did people become happier as history unfolded? 65,000 people have signed up to his
+                        online course, A Brief History of Humankind. Sapiens is an international bestseller and is being
+                        published in more than 30 languages worldwide. In 2012 Harari was awarded the annual Polonsky
+                        Prize for Creativity and Originality in the Humanistic Disciplines.<p>
+                            <p>ISBN-13: 9780099590088</p>
+                            <p>Publisher: Vintage Publishing</p>
+                            <p>Publisher Date: 30 Apr 2015</p>
+                            <p>Binding: Paperback</p>
+                            <p>Edition: Third</p>
+                            <p>Language: English</p>
+                </div>
+            </div>
+            <hr>
+        </div>
+
+
+        <section id="mode_books">
+            <div class="container">
+                <h2 class="morebooks">More Books Like This</h2>
+                <div class=" ll row">
+                    <div class="col sm-3">
+                        <img src="images/murty.jpg" height="330"> <br>
+                        <a class="waves-effect waves-light btn">View Details</a>
+                    </div>
+                    <div class="col sm-3">
+                            <img src="images/shining.jpg" height="330"> <br>
+                            <a class="waves-effect waves-light btn">View Details</a>
+                        </div>
+                        <div class="col sm-3">
+                                <img src="images/emma.jpg" height="330"> <br>
+                                <a class="waves-effect waves-light btn">View Details</a>
+                            </div>
+                            <div class="col sm-3">
+                                    <img src="images/revolutionary.jpg" height="330"><br>
+                                    <a class="waves-effect waves-light btn">View Details</a>
+                                </div>
+                </div>
+            </div>
+        </section>
+    </section>

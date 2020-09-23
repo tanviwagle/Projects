@@ -1,0 +1,58 @@
+body{
+    margin: 0 auto;
+    
+}
+.top_offer{
+    text-align: center;
+}
+
+.new_arrival{
+    text-align: center;
+}
+.card-title{
+    text-align: center;
+}
+
+.card-contents{
+    text-align: center;
+}
+
+nav{
+    background-color:#4a148c;
+}
+
+.page-footer{
+    background-color: #4a148c;
+}
+
+.featured_authors{
+    text-align: center;
+}
+.avatar {
+    vertical-align: middle;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+  }
+  #search{
+      padding: 15px;
+      color: black;
+      
+  }
+
+  #search h4{
+      float:left;
+  }
+
+  #search form{
+      
+      margin-top: 15px;
+  }
+
+  .author{
+      text-align: center;
+  }
+  .author1{
+      text-align: center;
+  }
+  
